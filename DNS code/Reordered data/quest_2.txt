@@ -1,0 +1,280 @@
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @8.8.8.8 universitadipavia.it -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49466
+;; flags: qr rd ra; QUERY: 1, ANSWER: 7, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;universitadipavia.it.		IN	MX
+
+;; ANSWER SECTION:
+universitadipavia.it.	3260	IN	MX	1 ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3260	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
+universitadipavia.it.	3260	IN	MX	10 ASPMX4.GOOGLEMAIL.COM.
+universitadipavia.it.	3260	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3260	IN	MX	10 ASPMX5.GOOGLEMAIL.COM.
+universitadipavia.it.	3260	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3260	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
+
+;; Query time: 175 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Thu Apr 20 11:42:54 CEST 2023
+;; MSG SIZE  rcvd: 228
+
+---------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @1.1.1.1 universitadipavia.it -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56517
+;; flags: qr rd ra; QUERY: 1, ANSWER: 7, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;universitadipavia.it.		IN	MX
+
+;; ANSWER SECTION:
+universitadipavia.it.	3600	IN	MX	10 ASPMX5.GOOGLEMAIL.COM.
+universitadipavia.it.	3600	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3600	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
+universitadipavia.it.	3600	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
+universitadipavia.it.	3600	IN	MX	10 ASPMX4.GOOGLEMAIL.COM.
+universitadipavia.it.	3600	IN	MX	1 ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3600	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+
+;; Query time: 899 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Thu Apr 20 11:43:00 CEST 2023
+;; MSG SIZE  rcvd: 228
+
+------------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @208.67.222.222 universitadipavia.it -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33543
+;; flags: qr rd ra; QUERY: 1, ANSWER: 7, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;universitadipavia.it.		IN	MX
+
+;; ANSWER SECTION:
+universitadipavia.it.	3600	IN	MX	1 aspmx.l.google.com.
+universitadipavia.it.	3600	IN	MX	5 alt1.aspmx.l.google.com.
+universitadipavia.it.	3600	IN	MX	5 alt2.aspmx.l.google.com.
+universitadipavia.it.	3600	IN	MX	10 aspmx2.googlemail.com.
+universitadipavia.it.	3600	IN	MX	10 aspmx3.googlemail.com.
+universitadipavia.it.	3600	IN	MX	10 aspmx4.googlemail.com.
+universitadipavia.it.	3600	IN	MX	10 aspmx5.googlemail.com.
+
+;; Query time: 215 msec
+;; SERVER: 208.67.222.222#53(208.67.222.222) (UDP)
+;; WHEN: Thu Apr 20 11:43:06 CEST 2023
+;; MSG SIZE  rcvd: 228
+
+-------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @9.9.9.9 universitadipavia.it -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35980
+;; flags: qr rd ra; QUERY: 1, ANSWER: 7, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;universitadipavia.it.		IN	MX
+
+;; ANSWER SECTION:
+universitadipavia.it.	3414	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3414	IN	MX	10 ASPMX4.GOOGLEMAIL.COM.
+universitadipavia.it.	3414	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
+universitadipavia.it.	3414	IN	MX	1 ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3414	IN	MX	10 ASPMX5.GOOGLEMAIL.COM.
+universitadipavia.it.	3414	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
+universitadipavia.it.	3414	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+
+;; Query time: 483 msec
+;; SERVER: 9.9.9.9#53(9.9.9.9) (UDP)
+;; WHEN: Thu Apr 20 11:43:12 CEST 2023
+;; MSG SIZE  rcvd: 228
+
+-------------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @193.204.35.27 universitadipavia.it -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41952
+;; flags: qr aa rd; QUERY: 1, ANSWER: 7, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: f3f912af59447b780100000064410954a98d4ebd3e51edf9 (good)
+;; QUESTION SECTION:
+;universitadipavia.it.		IN	MX
+
+;; ANSWER SECTION:
+universitadipavia.it.	3600	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3600	IN	MX	10 ASPMX5.GOOGLEMAIL.COM.
+universitadipavia.it.	3600	IN	MX	1 ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3600	IN	MX	10 ASPMX3.GOOGLEMAIL.COM.
+universitadipavia.it.	3600	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+universitadipavia.it.	3600	IN	MX	10 ASPMX2.GOOGLEMAIL.COM.
+universitadipavia.it.	3600	IN	MX	10 ASPMX4.GOOGLEMAIL.COM.
+
+;; Query time: 267 msec
+;; SERVER: 193.204.35.27#53(193.204.35.27) (UDP)
+;; WHEN: Thu Apr 20 11:43:48 CEST 2023
+;; MSG SIZE  rcvd: 259
+
+---------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @1.1.1.1 harvard.edu -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4955
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;harvard.edu.			IN	MX
+
+;; ANSWER SECTION:
+harvard.edu.		180	IN	MX	100 mx0b-00171101.pphosted.com.
+harvard.edu.		180	IN	MX	100 mx0a-00171101.pphosted.com.
+
+;; Query time: 107 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Thu Apr 20 11:47:13 CEST 2023
+;; MSG SIZE  rcvd: 112
+
+--------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @208.67.222.222 harvard.edu -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2557
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;harvard.edu.			IN	MX
+
+;; ANSWER SECTION:
+harvard.edu.		180	IN	MX	100 mx0a-00171101.pphosted.com.
+harvard.edu.		180	IN	MX	100 mx0b-00171101.pphosted.com.
+
+;; Query time: 795 msec
+;; SERVER: 208.67.222.222#53(208.67.222.222) (UDP)
+;; WHEN: Thu Apr 20 11:48:03 CEST 2023
+;; MSG SIZE  rcvd: 112
+
+------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @9.9.9.9 harvard.edu -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31790
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;harvard.edu.			IN	MX
+
+;; ANSWER SECTION:
+harvard.edu.		180	IN	MX	100 mx0a-00171101.pphosted.com.
+harvard.edu.		180	IN	MX	100 mx0b-00171101.pphosted.com.
+
+;; Query time: 483 msec
+;; SERVER: 9.9.9.9#53(9.9.9.9) (UDP)
+;; WHEN: Thu Apr 20 11:48:14 CEST 2023
+;; MSG SIZE  rcvd: 112
+
+-----------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @193.204.35.27 harvard.edu -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 62904
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: a0dbe0772b8834850100000064410a8a3fc6ebdea8960572 (good)
+;; QUESTION SECTION:
+;harvard.edu.			IN	MX
+
+;; Query time: 359 msec
+;; SERVER: 193.204.35.27#53(193.204.35.27) (UDP)
+;; WHEN: Thu Apr 20 11:48:58 CEST 2023
+;; MSG SIZE  rcvd: 68
+
+-----------------------------------------------------------------------------------
+
+
+
+; <<>> DiG 9.10.6 <<>> @a16-64.akam.net universitadipavia.it -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 1820
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;universitadipavia.it.		IN	MX
+
+;; Query time: 37 msec
+;; SERVER: 23.211.132.64#53(23.211.132.64)
+;; WHEN: Sat Apr 22 13:09:34 CEST 2023
+;; MSG SIZE  rcvd: 49
+
+-----------------------------------------------------------------------------------
+
+
+
+
+; <<>> DiG 9.10.6 <<>> @a16-64.akam.net harvard.edu -t MX
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2363
+;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;harvard.edu.			IN	MX
+
+;; ANSWER SECTION:
+harvard.edu.		180	IN	MX	100 mx0a-00171101.pphosted.com.
+harvard.edu.		180	IN	MX	100 mx0b-00171101.pphosted.com.
+
+;; Query time: 75 msec
+;; SERVER: 23.211.132.64#53(23.211.132.64)
+;; WHEN: Sat Apr 22 13:10:03 CEST 2023
+;; MSG SIZE  rcvd: 112
+

@@ -1,0 +1,226 @@
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @8.8.8.8 achille.unipv.it -t A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24987
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;achille.unipv.it.		IN	A
+
+;; ANSWER SECTION:
+achille.unipv.it.	189	IN	A	193.204.34.164
+
+;; Query time: 43 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Thu Apr 20 11:27:39 CEST 2023
+;; MSG SIZE  rcvd: 61
+
+--------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @1.1.1.1 achille.unipv.it -t A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39094
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;achille.unipv.it.		IN	A
+
+;; ANSWER SECTION:
+achille.unipv.it.	300	IN	A	193.204.34.164
+
+;; Query time: 83 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Thu Apr 20 11:27:51 CEST 2023
+;; MSG SIZE  rcvd: 61
+
+------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @208.67.222.222 achille.unipv.it -t A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22140
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;achille.unipv.it.		IN	A
+
+;; ANSWER SECTION:
+achille.unipv.it.	300	IN	A	193.204.34.164
+
+;; Query time: 71 msec
+;; SERVER: 208.67.222.222#53(208.67.222.222) (UDP)
+;; WHEN: Thu Apr 20 11:28:21 CEST 2023
+;; MSG SIZE  rcvd: 61
+
+-------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @9.9.9.9 achille.unipv.it -t A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2705
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;achille.unipv.it.		IN	A
+
+;; ANSWER SECTION:
+achille.unipv.it.	300	IN	A	193.204.34.164
+
+;; Query time: 135 msec
+;; SERVER: 9.9.9.9#53(9.9.9.9) (UDP)
+;; WHEN: Thu Apr 20 11:28:48 CEST 2023
+;; MSG SIZE  rcvd: 61
+
+---------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @ipv36.unipv.it achille.unipv.it -t A
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27938
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: ac2d75bd35e998d9010000006441070a2c94b52cb0318a27 (good)
+;; QUESTION SECTION:
+;achille.unipv.it.		IN	A
+
+;; ANSWER SECTION:
+achille.unipv.it.	300	IN	A	193.204.34.164
+
+;; Query time: 43 msec
+;; SERVER: 193.204.35.27#53(ipv36.unipv.it) (UDP)
+;; WHEN: Thu Apr 20 11:34:02 CEST 2023
+;; MSG SIZE  rcvd: 89
+
+-------------------------------------------------------------------
+
+; <<>> DiG 9.10.6 <<>> dig @8.8.8.8 www.apple.it -t A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24812
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.apple.it.			IN	A
+
+;; ANSWER SECTION:
+www.apple.it.		752	IN	CNAME	apple.it.
+apple.it.		752	IN	A	17.253.144.10
+
+;; Query time: 90 msec
+;; SERVER: 172.20.10.1#53(172.20.10.1)
+;; WHEN: Sat Apr 22 10:57:58 CEST 2023
+;; MSG SIZE  rcvd: 71
+
+-------------------------------------------------------------------
+
+
+; <<>> DiG 9.10.6 <<>> dig @1.1.1.1 www.apple.it -t A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62054
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1220
+;; QUESTION SECTION:
+;www.apple.it.			IN	A
+
+;; ANSWER SECTION:
+www.apple.it.		600	IN	CNAME	apple.it.
+apple.it.		205	IN	A	17.253.144.10
+
+;; Query time: 23 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Sat Apr 22 11:00:54 CEST 2023
+;; MSG SIZE  rcvd: 71
+
+-------------------------------------------------------------------
+
+
+
+; <<>> DiG 9.10.6 <<>> dig @208.67.222.222 www.apple.it -t A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14077
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.apple.it.			IN	A
+
+;; ANSWER SECTION:
+www.apple.it.		480	IN	CNAME	apple.it.
+apple.it.		85	IN	A	17.253.144.10
+
+;; Query time: 3 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Sat Apr 22 11:02:54 CEST 2023
+;; MSG SIZE  rcvd: 79
+
+-------------------------------------------------------------------
+
+
+; <<>> DiG 9.10.6 <<>> dig @9.9.9.9 www.apple.it -t A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61333
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.apple.it.			IN	A
+
+;; ANSWER SECTION:
+www.apple.it.		469	IN	CNAME	apple.it.
+apple.it.		74	IN	A	17.253.144.10
+
+;; Query time: 5 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Sat Apr 22 11:03:05 CEST 2023
+;; MSG SIZE  rcvd: 79
+
+-------------------------------------------------------------------
+
+
+; <<>> DiG 9.10.6 <<>> dig @ipv36.unipv.it www.apple.it -t A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11719
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1220
+;; QUESTION SECTION:
+;www.apple.it.			IN	A
+
+;; ANSWER SECTION:
+www.apple.it.		377	IN	CNAME	apple.it.
+apple.it.		600	IN	A	17.253.144.10
+
+;; Query time: 24 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Sat Apr 22 11:04:37 CEST 2023
+;; MSG SIZE  rcvd: 71
+

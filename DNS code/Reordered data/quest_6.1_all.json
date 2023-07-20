@@ -1,0 +1,368 @@
+[
+
+    {
+        "mode": "UDP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:56:11.787695",
+          "r_min": 10.1042823791503906,
+          "r_avg": 12.657148838043213,
+          "resolver": "8.8.8.8",
+          "r_max": 13.794431686401367,
+          "r_lost_percent": 0.0,
+          "s_ttl": "80",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "UDP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:56:12.133901",
+          "r_min": 12.173900604248047,
+          "r_avg": 12.9965686798095703,
+          "resolver": "1.1.1.1",
+          "r_max": 16.631612777709961,
+          "r_lost_percent": 0.0,
+          "s_ttl": "79",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "UDP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:56:12.522556",
+          "r_min": 12.4483203887939453,
+          "r_avg": 13.210933208465576,
+          "resolver": "208.67.222.222",
+          "r_max": 17.326841354370117,
+          "r_lost_percent": 0.0,
+          "s_ttl": "79",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "UDP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:56:12.904170",
+          "r_min": 12.2771358489990234,
+          "r_avg": 13.0963611602783203,
+          "resolver": "9.9.9.9",
+          "r_max": 14.433155059814453,
+          "r_lost_percent": 0.0,
+          "s_ttl": "79",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "UDP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:56:13.380709",
+          "r_min": 12.290487289428711,
+          "r_avg": 14.176299571990967,
+          "resolver": "193.204.35.27",
+          "r_max": 32.32097625732422,
+          "r_lost_percent": 0.0,
+          "s_ttl": "78",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },
+      {
+        "mode": "TCP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:57:15.090563",
+          "r_min": 16.809234619140625,
+          "r_avg": 18.546514511108398,
+          "resolver": "8.8.8.8",
+          "r_max": 19.618511199951172,
+          "r_lost_percent": 0.0,
+          "s_ttl": "16",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "TCP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:57:15.986762",
+          "r_min": 16.3343048095703125,
+          "r_avg": 19.173971176147461,
+          "resolver": "1.1.1.1",
+          "r_max": 23.353824615478516,
+          "r_lost_percent": 0.0,
+          "s_ttl": "16",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "TCP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:57:16.932721",
+          "r_min": 16.438255310058594,
+          "r_avg": 19.35240125656128,
+          "resolver": "208.67.222.222",
+          "r_max": 28.593311309814453,
+          "r_lost_percent": 0.0,
+          "s_ttl": "15",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "TCP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:57:17.843391",
+          "r_min": 16.3953399658203125,
+          "r_avg": 18.040897846221924,
+          "resolver": "9.9.9.9",
+          "r_max": 24.545917510986328,
+          "r_lost_percent": 0.0,
+          "s_ttl": "14",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "TCP",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:57:18.865302",
+          "r_min": 16.590843200683594,
+          "r_avg": 19.21027421951294,
+          "resolver": "193.204.35.27",
+          "r_max": 23.929119110107422,
+          "r_lost_percent": 0.0,
+          "s_ttl": "13",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },
+      {
+        "mode": "DoT",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:58:47.794841",
+          "r_min": 51.87869071960449,
+          "r_avg": 59.39342737197876,
+          "resolver": "8.8.8.8",
+          "r_max": 84.28430557250977,
+          "r_lost_percent": 0.0,
+          "s_ttl": "294",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "DoT",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:58:52.004449",
+          "r_min": 43.576011657714844,
+          "r_avg": 51.25799894332886,
+          "resolver": "1.1.1.1",
+          "r_max": 57.67822265625,
+          "r_lost_percent": 0.0,
+          "s_ttl": "277",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "DoT",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:58:58.984374",
+          "r_min": 53.27177047729492,
+          "r_avg": 68.16307783126831,
+          "resolver": "208.67.222.222",
+          "r_max": 99.9150276184082,
+          "r_lost_percent": 0.0,
+          "s_ttl": "300",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "DoT",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:59:06.762243",
+          "r_min": 63.38953971862793,
+          "r_avg": 76.53746366500854,
+          "resolver": "9.9.9.9",
+          "r_max": 330.72710037231445,
+          "r_lost_percent": 0.0,
+          "s_ttl": "54",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "DoT",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:59:08.767279",
+          "r_min": 0,
+          "r_avg": 0,
+          "resolver": "193.204.35.27",
+          "r_max": 0,
+          "r_lost_percent": 100.0,
+          "s_ttl": "N/A",
+          "text_flags": "-- -- -- -- -- -- --",
+          "flags": 0,
+          "rcode": 0,
+          "rcode_text": "No Response"
+        
+      },
+      {
+        "mode": "DoH",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:59:43.979131",
+          "r_min": 93.557,
+          "r_avg": 98.24813,
+          "resolver": "8.8.8.8",
+          "r_max": 125.281,
+          "r_lost_percent": 0.0,
+          "s_ttl": "296",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "DoH",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 14:59:56.915169",
+          "r_min": 79.041,
+          "r_avg": 127.99930000000003,
+          "resolver": "1.1.1.1",
+          "r_max": 787.264,
+          "r_lost_percent": 0.0,
+          "s_ttl": "225",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "DoH",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 15:00:07.736483",
+          "r_min": 94.182,
+          "r_avg": 107.03759,
+          "resolver": "208.67.222.222",
+          "r_max": 126.127,
+          "r_lost_percent": 0.0,
+          "s_ttl": "300",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },{
+        "mode": "DoH",
+          "hostname": "google.com",
+          "timestamp": "2023-04-26 15:00:21.370565",
+          "r_min": 105.80000000000001,
+          "r_avg": 134.97976999999997,
+          "resolver": "9.9.9.9",
+          "r_max": 1131.153,
+          "r_lost_percent": 0.0,
+          "s_ttl": "31",
+          "text_flags": "QR -- -- RD RA -- --",
+          "flags": 33152,
+          "rcode": 0,
+          "rcode_text": "NOERROR"
+        
+      },
+      {
+        "mode": "DNSSEC",
+        "hostname": "google.com",
+        "timestamp": "2023-04-26 15:01:08.497796",
+        "r_min": 20.146856307983398,
+        "r_avg": 21.866695880889893,
+        "resolver": "8.8.8.8",
+        "r_max": 35.731563568115234,
+        "r_lost_percent": 0.0,
+        "s_ttl": "80",
+        "text_flags": "QR -- -- RD RA -- --",
+        "flags": 33152,
+        "rcode": 0,
+        "rcode_text": "NOERROR"
+      
+    },{
+        "mode": "DNSSEC",
+        "hostname": "google.com",
+        "timestamp": "2023-04-26 15:01:09.866594",
+        "r_min": 20.100841522216797,
+        "r_avg": 22.82904863357544,
+        "resolver": "1.1.1.1",
+        "r_max": 41.29981994628906,
+        "r_lost_percent": 0.0,
+        "s_ttl": "79",
+        "text_flags": "QR -- -- RD RA -- --",
+        "flags": 33152,
+        "rcode": 0,
+        "rcode_text": "NOERROR"
+      
+    },{
+        "mode": "DNSSEC",
+        "hostname": "google.com",
+        "timestamp": "2023-04-26 15:01:11.126226",
+        "r_min": 20.313272476196289,
+        "r_avg": 21.609914302825928,
+        "resolver": "208.67.222.222",
+        "r_max": 36.777753829956055,
+        "r_lost_percent": 0.0,
+        "s_ttl": "77",
+        "text_flags": "QR -- -- RD RA -- --",
+        "flags": 33152,
+        "rcode": 0,
+        "rcode_text": "NOERROR"
+      
+    },{
+        "mode": "DNSSEC",
+        "hostname": "google.com",
+        "timestamp": "2023-04-26 15:01:12.418527",
+        "r_min": 20.179758071899414,
+        "r_avg": 21.942472457885742,
+        "resolver": "9.9.9.9",
+        "r_max": 29.00339126586914,
+        "r_lost_percent": 0.0,
+        "s_ttl": "76",
+        "text_flags": "QR -- -- RD RA -- --",
+        "flags": 33152,
+        "rcode": 0,
+        "rcode_text": "NOERROR"
+      
+    },{
+        "mode": "DNSSEC",
+        "hostname": "google.com",
+        "timestamp": "2023-04-26 15:01:13.663032",
+        "r_min": 20.206222534179688,
+        "r_avg": 21.53005599975586,
+        "resolver": "193.204.35.27",
+        "r_max": 29.769906997680664,
+        "r_lost_percent": 0.0,
+        "s_ttl": "75",
+        "text_flags": "QR -- -- RD RA -- --",
+        "flags": 33152,
+        "rcode": 0,
+        "rcode_text": "NOERROR"
+      }
+
+]

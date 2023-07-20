@@ -1,0 +1,39 @@
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @ns1-39.azure-dns.com unipv.it -t NS
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 8105
+;; flags: qr rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;unipv.it.			IN	NS
+
+;; Query time: 79 msec
+;; SERVER: 150.171.10.39#53(ns1-39.azure-dns.com) (UDP)
+;; WHEN: Thu Apr 20 21:23:00 CEST 2023
+;; MSG SIZE  rcvd: 37
+
+----------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @ns1-39.azure-dns.com cloudflare.com -t NS
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 50088
+;; flags: qr rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;cloudflare.com.			IN	NS
+
+;; Query time: 375 msec
+;; SERVER: 150.171.10.39#53(ns1-39.azure-dns.com) (UDP)
+;; WHEN: Thu Apr 20 21:23:09 CEST 2023
+;; MSG SIZE  rcvd: 43
+

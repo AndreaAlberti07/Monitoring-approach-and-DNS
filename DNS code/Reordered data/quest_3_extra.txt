@@ -1,0 +1,237 @@
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @8.8.8.8 yjc.ir -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48979
+;; flags: qr rd ra; QUERY: 1, ANSWER: 7, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;yjc.ir.				IN	ANY
+
+;; ANSWER SECTION:
+yjc.ir.			300	IN	MX	10 mail.yjc.ir.
+yjc.ir.			300	IN	TXT	"53c252ff61a06c40ad786ad3b33310e58f4293fd9a454b32d391d6d441594f3"
+yjc.ir.			300	IN	TXT	"v=spf1 +a +mx -all"
+yjc.ir.			300	IN	SOA	ns1.iransamaneh.com. admin.iransamaneh.com. 2023040403 7200 3600 1209600 10800
+yjc.ir.			300	IN	NS	ns1.iransamaneh.com.
+yjc.ir.			300	IN	NS	ns2.iransamaneh.com.
+yjc.ir.			300	IN	A	94.182.146.39
+
+;; Query time: 471 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (TCP)
+;; WHEN: Thu Apr 20 11:58:13 CEST 2023
+;; MSG SIZE  rcvd: 272
+
+--------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @1.1.1.1 yjc.ir -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOTIMP, id: 9366
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;yjc.ir.				IN	ANY
+
+;; Query time: 31 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (TCP)
+;; WHEN: Thu Apr 20 11:58:20 CEST 2023
+;; MSG SIZE  rcvd: 35
+
+--------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @208.67.222.222 yjc.ir -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOTIMP, id: 54680
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;yjc.ir.				IN	ANY
+
+;; Query time: 27 msec
+;; SERVER: 208.67.222.222#53(208.67.222.222) (TCP)
+;; WHEN: Thu Apr 20 11:58:37 CEST 2023
+;; MSG SIZE  rcvd: 35
+
+-------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @9.9.9.9 yjc.ir -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45303
+;; flags: qr rd ra; QUERY: 1, ANSWER: 7, AUTHORITY: 0, ADDITIONAL: 2
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;yjc.ir.				IN	ANY
+
+;; ANSWER SECTION:
+yjc.ir.			300	IN	MX	10 mail.yjc.ir.
+yjc.ir.			300	IN	TXT	"v=spf1 +a +mx -all"
+yjc.ir.			300	IN	TXT	"53c252ff61a06c40ad786ad3b33310e58f4293fd9a454b32d391d6d441594f3"
+yjc.ir.			300	IN	SOA	ns1.iransamaneh.com. admin.iransamaneh.com. 2023040403 7200 3600 1209600 10800
+yjc.ir.			300	IN	NS	ns2.iransamaneh.com.
+yjc.ir.			300	IN	NS	ns1.iransamaneh.com.
+yjc.ir.			300	IN	A	94.182.146.39
+
+;; ADDITIONAL SECTION:
+mail.yjc.ir.		300	IN	A	94.182.146.220
+
+;; Query time: 443 msec
+;; SERVER: 9.9.9.9#53(9.9.9.9) (TCP)
+;; WHEN: Thu Apr 20 11:58:46 CEST 2023
+;; MSG SIZE  rcvd: 288
+
+--------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @193.204.35.27 yjc.ir -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 37163
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 8ab80af80c69474f0100000064410cef27c36a6724c98817 (good)
+;; QUESTION SECTION:
+;yjc.ir.				IN	ANY
+
+;; Query time: 39 msec
+;; SERVER: 193.204.35.27#53(193.204.35.27) (TCP)
+;; WHEN: Thu Apr 20 11:59:11 CEST 2023
+;; MSG SIZE  rcvd: 63
+
+-----------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @8.8.8.8 spec.org -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34838
+;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;spec.org.			IN	ANY
+
+;; ANSWER SECTION:
+spec.org.		21329	IN	A	38.146.202.4
+spec.org.		21329	IN	MX	10 pro.spec.org.
+spec.org.		21329	IN	NS	pro.spec.org.
+spec.org.		21329	IN	NS	spec.cs.miami.edu.
+spec.org.		21329	IN	NS	ns1.headgear.org.
+spec.org.		21329	IN	NS	ns2.headgear.org.
+spec.org.		21329	IN	TXT	"v=spf1 ip4:38.146.202.0/29 -all"
+spec.org.		21329	IN	SOA	pro.spec.org. root.pro.spec.org. 2022111501 7200 3600 604800 86400
+
+;; Query time: 447 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (TCP)
+;; WHEN: Thu Apr 20 12:03:27 CEST 2023
+;; MSG SIZE  rcvd: 248
+
+--------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @1.1.1.1 spec.org -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOTIMP, id: 2425
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;spec.org.			IN	ANY
+
+;; Query time: 31 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (TCP)
+;; WHEN: Thu Apr 20 12:03:35 CEST 2023
+;; MSG SIZE  rcvd: 37
+
+-------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @208.67.222.222 spec.org -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOTIMP, id: 10343
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;spec.org.			IN	ANY
+
+;; Query time: 27 msec
+;; SERVER: 208.67.222.222#53(208.67.222.222) (TCP)
+;; WHEN: Thu Apr 20 12:04:12 CEST 2023
+;; MSG SIZE  rcvd: 37
+
+------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @9.9.9.9 spec.org -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40226
+;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 2
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;spec.org.			IN	ANY
+
+;; ANSWER SECTION:
+spec.org.		43200	IN	A	38.146.202.4
+spec.org.		43200	IN	MX	10 pro.spec.org.
+spec.org.		43200	IN	NS	ns2.headgear.org.
+spec.org.		43200	IN	NS	pro.spec.org.
+spec.org.		43200	IN	NS	spec.cs.miami.edu.
+spec.org.		43200	IN	NS	ns1.headgear.org.
+spec.org.		43200	IN	TXT	"v=spf1 ip4:38.146.202.0/29 -all"
+spec.org.		43200	IN	SOA	pro.spec.org. root.pro.spec.org. 2022111501 7200 3600 604800 86400
+
+;; ADDITIONAL SECTION:
+pro.spec.org.		43199	IN	A	38.146.202.3
+
+;; Query time: 607 msec
+;; SERVER: 9.9.9.9#53(9.9.9.9) (TCP)
+;; WHEN: Thu Apr 20 12:04:23 CEST 2023
+;; MSG SIZE  rcvd: 264
+
+------------------------------------------------------------------------------------------
+
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> @193.204.35.27 spec.org -t ANY
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 47409
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 0e8f00104e9adaab0100000064410e3c0e7ffd18374b0147 (good)
+;; QUESTION SECTION:
+;spec.org.			IN	ANY
+
+;; Query time: 31 msec
+;; SERVER: 193.204.35.27#53(193.204.35.27) (TCP)
+;; WHEN: Thu Apr 20 12:04:44 CEST 2023
+;; MSG SIZE  rcvd: 65
+

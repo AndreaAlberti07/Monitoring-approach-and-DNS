@@ -1,0 +1,63 @@
+[
+{
+    "type": "A",
+    "hostname": "google.com",
+    "timestamp": "2023-04-26 15:09:48.584794",
+    "r_min": 1.9459724426269531,
+    "r_avg": 2.556452751159668,
+    "resolver": "88.220.66.4",
+    "r_max": 11.906623840332031,
+    "r_lost_percent": 0.0,
+    "s_ttl": "157",
+    "text_flags": "QR -- -- RD RA -- --",
+    "flags": 33152,
+    "rcode": 0,
+    "rcode_text": "NOERROR"
+  
+},{
+    "type": "A",
+    "hostname": "google.com",
+    "timestamp": "2023-04-26 15:09:48.877057",
+    "r_min": 2.0046234130859375,
+    "r_avg": 2.680063247680664,
+    "resolver": "82.199.35.101",
+    "r_max": 7.788181304931641,
+    "r_lost_percent": 0.0,
+    "s_ttl": "157",
+    "text_flags": "QR -- -- RD RA -- --",
+    "flags": 33152,
+    "rcode": 0,
+    "rcode_text": "NOERROR"
+  
+},{
+    "type": "A",
+    "hostname": "google.com",
+    "timestamp": "2023-04-26 15:09:49.173707",
+    "r_min": 2.036571502685547,
+    "r_avg": 2.6440072059631348,
+    "resolver": "185.218.125.68",
+    "r_max": 24.26600456237793,
+    "r_lost_percent": 0.0,
+    "s_ttl": "156",
+    "text_flags": "QR -- -- RD RA -- --",
+    "flags": 33152,
+    "rcode": 0,
+    "rcode_text": "NOERROR"
+  
+},{
+    "type": "A",
+    "hostname": "google.com",
+    "timestamp": "2023-04-26 15:09:49.532456",
+    "r_min": 2.1009445190429688,
+    "r_avg": 2.9534482955932617,
+    "resolver": "98.33.182.119",
+    "r_max": 8.14366340637207,
+    "r_lost_percent": 0.0,
+    "s_ttl": "156",
+    "text_flags": "QR -- -- RD RA -- --",
+    "flags": 33152,
+    "rcode": 0,
+    "rcode_text": "NOERROR"
+  
+}
+]

@@ -1,0 +1,16 @@
+google.com A
+google.com MX
+google.com NS
+google.com ANY
+youtube.com A
+youtube.com MX
+youtube.com NS
+youtube.com ANY
+apple.it A
+apple.it MX
+apple.it NS
+apple.it ANY
+
+
+
+
