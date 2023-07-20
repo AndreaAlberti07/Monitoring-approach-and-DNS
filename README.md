@@ -64,7 +64,7 @@ The results from the second project demonstrated that the DNS resolution time va
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code and documentation following the terms of the license.
+This project is licensed under the [MIT License](https://github.com/AndreaAlberti07/Monitoring-approach-and-DNS/blob/main/LICENSE). You are free to use, modify, and distribute the code and documentation following the terms of the license.
 
 ---
 
