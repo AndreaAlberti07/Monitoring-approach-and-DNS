@@ -1,18 +1,19 @@
----
-# Network Performance and Functionality Investigation
----
-## Table of Contents
+<h1 align="center">Network Performance and Functionality Investigation</h1>
 
-1. [Introduction](#introduction)
-2. [Project 1: Latency Analysis](#project-1-latency-analysis)
-   - 2.1. [Objective](#objective)
-   - 2.2. [Tools Used](#tools-used)
-   - 2.3. [Results](#results)
-3. [Project 2: DNS Functionality and Performance](#project-2-dns-functionality-and-performance)
-   - 3.1. [Objective](#objective)
-   - 3.2. [Tools Used](#tools-used)
-   - 3.3. [Results](#results)
-4. [License](#license)
+<p align="center">
+  <b>Two Projects Analyzing Network Performance and DNS Functionality</b>
+  <br>
+  <i>Exploring Latency Analysis and DNS Resolution Time</i>
+</p>
+
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#project-1-latency-analysis">Project 1: Latency Analysis</a> •
+  <a href="#project-2-dns-functionality-and-performance">Project 2: DNS Functionality and Performance</a> •
+  <a href="#how-to-use">How to Use</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
 ---
 
@@ -38,7 +39,7 @@ The following tools were utilized to collect measurements and analyze the data:
 
 ### Results
 
-The analysis of latency revealed that it doesn't significantly depend on the day of the week. However, the choice of ISPs and connection technologies had a considerable impact on the website's latency. Further details can be found in the project report.
+The analysis of latency revealed that it doesn't significantly depend on the day of the week. However, the choice of ISPs and connection technologies had a considerable impact on the website's latency. Further details can be found in the project documentation.
 
 ## Project 2: DNS Functionality and Performance
 
@@ -62,10 +63,26 @@ The following tools were employed for DNS investigation and performance evaluati
 
 The results from the second project demonstrated that the DNS resolution time varies depending on the chosen DNS server and protocol. More detailed findings are documented in the project report.
 
+## How to Use
+
+If you wish to replicate the experiments or explore the code and data, follow these steps:
+
+1. Clone the repository to your local machine using `git clone`.
+2. Navigate to the respective project folders for detailed instructions on running the experiments.
+3. Refer to the project documentation to understand the data collection and analysis process.
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have ideas for improvement, feel free to create a pull request or submit an issue.
+
 ## License
 
-This project is licensed under the [MIT License](https://github.com/AndreaAlberti07/Monitoring-approach-and-DNS/blob/main/LICENSE). You are free to use, modify, and distribute the code and documentation following the terms of the license.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code and documentation following the terms of the license.
 
 ---
 
+We hope this repository helps in understanding network performance and DNS functionality. Should you have any questions or concerns, please don't hesitate to contact us.
+
 Thank you for your interest in this project!
+
+*Project Maintainers: [Your Name](mailto:your@email.com)*
